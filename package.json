@@ -1,5 +1,5 @@
 {
-  "name": "react-forms-lite",
+  "name": "react-form-lib",
   "version": "1.1.5",
   "description": "react form library",
   "types": "dist/index.d.ts",
@@ -18,11 +18,15 @@
     "Yup",
     "clsx"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rbrahma1245/form-library.git"
+  },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
-  "author": "sac6inarya",
+  "author": "rahulbrahma",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
